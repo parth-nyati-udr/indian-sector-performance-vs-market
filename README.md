@@ -1,4 +1,4 @@
-# sector-relative-performance
+# Indian Sector Performance vs Market
 
 Which Indian sectors have **structurally** lagged or led the market, and are any of them turning? A contrarian-research tool comparing sector proxies against the Nifty 50 over 3, 5 and 10 years, with rolling-window consistency and a trend-state gate.
 
