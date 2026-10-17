@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sector-relative-performance"
+version = "1.0.0"
+description = "Long-horizon Indian sector laggard/leader analysis vs Nifty 50"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pandas>=2.0", "numpy>=1.24", "yfinance>=0.2.40"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["sector_perf"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
